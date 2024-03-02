@@ -1,0 +1,87 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.562);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.8));
+}
+
+.container {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.8));
+  border-radius: 20px;
+  width: 550px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  font-family: 'Rock Salt', cursive;
+  font-size: 24px;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+  margin: 0;
+  font-size: 24px; 
+  font-weight: bold; 
+  
+}
+
+.buttons {
+ 
+  margin-top: 30px; 
+  
+}
+
+.buttons button {
+  background-color: transparent; 
+  border: none; 
+  color: white;
+  margin: 0 15px; 
+  cursor: pointer;
+}
+
+.buttons button i {
+  font-size: 28px; 
+}
+
+.progress_container {
+  width: 100%;
+  max-width: 300px; 
+  height: 15px; 
+  margin-top: 30px; 
+  background-color: #ccc; 
+  border-radius: 8px; 
+  cursor: pointer;
+  
+}
+
+#progress {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.8));
+  height: 100%; 
+  
+}
+
+#current_time, #current_audio {
+  font-size: 16px; 
+  color: #aaa; 
+  position: absolute;
+  
+}
+
+#current_time {
+  top: 15px;
+  left: 15px; 
+}
+
+#current_audio {
+  top: 15px;
+  right: 15px; 
+}
